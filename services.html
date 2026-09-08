@@ -8,34 +8,92 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h1>iQamata LiKhaya</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <nav style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem;">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <img src="images/logo.png" alt="iQamata LiKhaya Logo" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                <h1 style="font-size: 1.5rem; margin: 0; color: white;">iQamata LiKhaya</h1>
+            </div>
+            <ul style="display: flex; list-style: none; gap: 1.5rem; margin: 0; padding: 0;">
+                <li><a href="index.html" style="text-decoration: none; color: #ddd;">Home</a></li>
+                <li><a href="about.html" style="text-decoration: none; color: #ddd;">About Us</a></li>
+                <li><a href="services.html" style="text-decoration: none; color: white; font-weight: bold;">Services</a></li>
+                <li><a href="enquiry.html" style="text-decoration: none; color: #ddd;">Enquiry</a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: #ddd;">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h2>Our Community Programs & Services</h2>
-            <p>At iQamata LiKhaya, we drive community-based initiatives focused on social upliftment[cite: 1]:</p>
-            <ul style="text-align: left; max-width: 600px; margin: 1.5rem auto; line-height: 1.8;">
-                <li><strong>Youth Empowerment & Educational Workshops:</strong> Programs aimed at building leadership, life skills, and responsible decision-making[cite: 1].</li>
-                <li><strong>Community Support Initiatives:</strong> Hosting developmental programs and children's fun days to nurture safe spaces[cite: 1].</li>
-                <li><strong>Social Upliftment:</strong> Creating lasting, positive change across local communities in South Africa[cite: 1].</li>
-            </ul>
-            <a href="enquiry.html" class="btn">Become a Volunteer</a>
+        <section class="hero" style="padding: 2.5rem 1rem;">
+            <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+                
+                <div style="text-align: center; margin-bottom: 2.5rem;">
+                    <h2 style="color: #2c3e50; margin-bottom: 0.5rem; font-size: 2rem;">Our Community Programs & Services</h2>
+                    <p style="color: #666; font-size: 1.05rem;">At iQamata LiKhaya, we drive community-based initiatives focused on social upliftment.</p>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 2.5rem;">
+                    
+                    <details style="background: #ffffff; padding: 1.5rem 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #2c3e50; cursor: pointer;">
+                        <summary style="font-size: 1.2rem; font-weight: bold; color: #2c3e50; outline: none;">Youth Empowerment & Educational Workshops</summary>
+                        <p style="color: #555; line-height: 1.6; margin-top: 1rem;">Programs aimed at building leadership, life skills, and responsible decision-making (including drug abuse awareness campaigns and skills training).</p>
+                        
+                        <div style="margin-top: 1.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/youth-empowering.jpg" alt="Youth Empowering Session" style="width: 100%; height: 220px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Youth Empowering Session</p>
+                            </div>
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/drug-abuse.jpg" alt="Drug Abuse Awareness Campaign" style="width: 100%; height: 220px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Awareness Campaign</p>
+                            </div>
+                        </div>
+                    </details>
+
+                    <details style="background: #ffffff; padding: 1.5rem 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #2c3e50; cursor: pointer;" open>
+                        <summary style="font-size: 1.2rem; font-weight: bold; color: #2c3e50; outline: none;">Community Support Initiatives</summary>
+                        <p style="color: #555; line-height: 1.6; margin-top: 1rem;">Hosting developmental programs, shoe distributions, and children's fun days to nurture safe spaces.</p>
+                        
+                        <div style="margin-top: 1.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/community-support-1.jpg" alt="Donation Drive" style="width: 100%; height: 180px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Shoe Donation Drive</p>
+                            </div>
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/shoe donation drive.jpg" alt="Shoe Donation Drive" style="width: 100%; height: 180px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Shoe Distribution</p>
+                            </div>
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/children-fun-day (4).png" style="width: 100%; height: 180px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Children's Fun Day</p>
+                            </div>
+                        </div>
+                    </details>
+
+                    <details style="background: #ffffff; padding: 1.5rem 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #2c3e50; cursor: pointer;">
+                        <summary style="font-size: 1.2rem; font-weight: bold; color: #2c3e50; outline: none;">Social Upliftment</summary>
+                        <p style="color: #555; line-height: 1.6; margin-top: 1rem;">Creating lasting, positive change across local communities in South Africa.</p>
+                        
+                        <div style="margin-top: 1.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                            <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                                <img src="images/community-support-3.png" alt="Social Upliftment Project" style="width: 100%; height: 220px; object-fit: cover; border-radius: 4px;">
+                                <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; font-weight: 500;">Upliftment Project</p>
+                            </div>
+                        </div>
+                    </details>
+
+                </div>
+
+                <div style="text-align: center;">
+                    <a href="enquiry.html" class="btn" style="background: #2c3e50; color: white; padding: 0.75rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">Become a Volunteer</a>
+                </div>
+
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 iQamata LiKhaya NPO. Registration number: 307-938 NPO[cite: 1].</p>
+    <footer style="text-align: center; padding: 2rem; color: #555; background: #f8f9fa;">
+        <p>&copy; 2021- 2026 iQamata LiKhaya NPO. Registration number: 307-938 NPO.</p>
     </footer>
 </body>
 </html>
-<img src="images/logo.jpg" alt="iQamata LiKhaya Logo" style="max-width: 200px; height: auto;">
